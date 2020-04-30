@@ -1,14 +1,10 @@
 ---
-title: "Welcome to Yue's Website!"
+title: "Atlas Statistical Research"
 ---
 
 <font size="4"> 
 
-This is Yue from Columbia University Mailman School of Public Health. I am a second year MPH Biostatistics student.
-
-I am looking for a full time job as a data analyst. I am good at SAS and R programming. I also learned Java and C# in college. 
-
-The life in New York is very busy. So I take a lot of naps. 
+My name is Yue and I am the founder of Atlas Statistical Research. We are a not-for-profit orgnization to conduct research.
 
 </font> 
 
