@@ -1,92 +1,19 @@
+
 ---
-title: "Resume"
-mainfont: Times New Roman
+title: "crazy test"
+output:
+  pdf_document
 ---
 
-##Yue (George) Zhao                                 
-
-##Email: yue.zhao2@columbia.edu  209-770-0277
-
-
-##EDUCATION
-
-<font size="4"> 
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, fig.pos = 'h')
+```
 
 
-Columbia University, New York, New York
-
-Master of Public Health in Biostatistics with Certificate in Advanced Epidemiology, May 2019
-
- 
-
-Texas Christian University, Fort Worth, Texas 
-
-Bachelor of Science in Mathematics with Actuarial Concentration, May 2017 
-
-Bachelor of Arts in Economics, May 2017                                  
-
- 
-
-##EXPERIENCE
-
-Vital Statistics Data Analyst Internship
-
-Shanghai Municipal Centers for Disease Control, Shanghai, China                                                 May-July 2018
-
-Department of Vital Statistics
-
-·         Performed statistical tests and regressions (Chi-Squared Test, McNemar’s Test, Logistic Regression with paired data) on deaths data to confirm the Cause of Death with SAS 
-
-·         Helped improve the Verbal Autopsy (VA) system with new algorithms and recorded the deaths data from 17 districts in Shanghai with EpiData 
-
- 
-
-Wealth Management Analyst Internship
-
-The Bank of East Asia (China), Ltd, Shanghai, China                                         June-August 2017
-
-Wealth Management Products Division
-
-·         Ran regression analysis on the factors that would encourage the consumers to buy wealth management products 
-
-·         Made daily analytical reports regarding the revenue earned and programmed VBA macros in Excel 
-
- 
-
-##RESEARCH EXPERIENCE
-
-“Regression Models on The Housing Market in China” mentored by Dr. Kiril Tochkov
-
-TCU Department of Economics, Fort Worth, TX                                            October 2016
-
-·         Collected the data from the National Statistics Bureau of China regarding the housing market
-
-·         Analyzed the pattern and built the regression models with the help of STATA
-
-·         Predicted the trend for the housing market in China in the next few years
+ttt
 
 
-##SKILLS
 
-Language: Fluent in Mandarin Chinese, Shanghai Dialect and English
-
-Statistical Skills: SAS, STATA, EpiData
-
-Linear Regression, Logistic Regression, t-test, Chi-Squared Test, McNemar’s Test, Breslow-Day Test, White Test, Wilcoxon Sign-Rank Test, Mixed Test with longitudinal data, Cluster Analysis. 
-
-Programming Skills: Visual Basic, Java, SQL, C#
-
-Visual Basic: I programmed macros in the internship at BEA for daily information update. This program would automatically copy and paste the information from the downloaded excel form to the base excel form. 
-
-C# and SQL: I designed a software for part time Study Abroad Consulting to those who are in high school senior year and wish to study abroad. This program can generate an automatic Word document to inform the clients about what needs to be done. 
-
-Java: I developed a web program during college freshman year to sell burgers online.
-
- 
-
-##HONORS
-
-College of Science and Engineering (TCU) Dean’s List                                       Spring 2016
-
-Texas Christian University Founder’s Scholarship Laureate                                Fall 2013-Present
- </font> 
+```{r label, out.width = "85%", fig.cap = "caption"}
+knitr::include_graphics(path = "./Resume.pdf")
+```
