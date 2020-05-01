@@ -179,7 +179,7 @@ header table {
     width:6%;
 }
 #photos {
-    width:50%;
+    width:40%;
     columns:3;
     column-gap:4%;
     z-index:1;
